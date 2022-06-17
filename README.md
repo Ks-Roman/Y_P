@@ -1,4 +1,4 @@
-# Y_P
+## Y_P
 В репозитории собраны мои проекты из курса "Специалист по Data Science" Яндекс Практикума, среда разработки Jupyter Notebook, язык программирования Python 3.8
 
 **[проект_1_Яндекс Музыка](https://github.com/Ks-Roman/Y_P/blob/main/project_1_yandex_music.ipynb)**
