@@ -68,7 +68,12 @@
 - *Инструменты* - **`Pandas, numpy, nltk, re, torch, transformers, pymystem3, notebook, stopwords, CountVectorizer, TfidfVectorizer, WordNetLemmatizer, LogisticRegression, CatBoostClassifier, LGBMClassifier, cross_val_scor, train_test_split, GridSearchCV, f1_score,make_scorer, confusion_matrix`**
 
 **[проект_14_Определение возраста покупателей](https://github.com/Ks-Roman/Y_P/blob/main/project__14_human_age.ipynb)**
-- *Цель исследования* -  построить модель для предсказания возраста покупателей
-- *Ход исследования* - 
-- *Инструменты* - **`Pandas, seaborn, matplotlib, numpy, datetime, LinearRegression, CatBoostRegressor, LGBMRegressor, GridSearchCV, train_test_split, mean_squared_error, seasonal_decompose, TimeSeriesSplit, fbeta_score, make_scorer`**
+- *Цель исследования* -  построить модель для предсказания возраста покупателей по фото 
+- *Ход исследования* - загрузили данные, провели исследовательский анализ данных, построили модель сверточной нейронной сети на ResNet50 на трёх эпохах с использованием алгоритма оптимизации Adam = 0.0001 с погрешностью в 6 лет 
+- *Инструменты* - **`Pandas, matplotlib, numpy, ImageDataGenerator, ResNet50, Conv2D, Flatten, Dense, AvgPool2D, GlobalAveragePooling2D, Sequential, Adam, TensorFlow`**
+
+**[проект_15_финальный проект Прогноз оттока клиентов оператора связи](https://github.com/Ks-Roman/Y_P/blob/main/project__15_telecom_Final.ipynb)**
+- *Цель исследования* -  построить модель для предсказания оттока клиентов  
+- *Ход исследования* - загрузили и подготовили данные, изменить типы данных, подготовили признаки, составили единую таблицу со всеми данными для модели, выделили целевой признак, разделили на features и target со смешиванием данных, выбрали и обучили модели, произвели оценку эффективности моделей на тестовой выборке
+- *Инструменты* - **`Pandas, matplotlib, numpy, seaborn, shuffle, train_test_split, GridSearchCV, RandomForestClassifier, CatBoostClassifier, roc_auc_score, accuracy_score, cv, Pool, cat`**
 
