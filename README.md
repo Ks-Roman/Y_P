@@ -75,5 +75,5 @@
 **[проект_15_финальный проект Прогноз оттока клиентов оператора связи](https://github.com/Ks-Roman/Y_P/blob/main/project__15_telecom_Final.ipynb)**
 - *Цель исследования* -  построить модель для предсказания оттока клиентов  
 - *Ход исследования* - загрузили и подготовили данные, изменить типы данных, подготовили признаки, составили единую таблицу со всеми данными для модели, выделили целевой признак, разделили на features и target со смешиванием данных, выбрали и обучили модели, произвели оценку эффективности моделей на тестовой выборке
-- *Инструменты* - **`Pandas, matplotlib, numpy, seaborn, shuffle, train_test_split, GridSearchCV, RandomForestClassifier, CatBoostClassifier, roc_auc_score, accuracy_score, cv, Pool, cat`**
+- *Инструменты* - **`Pandas, matplotlib, numpy, seaborn, shuffle, train_test_split, GridSearchCV, RandomForestClassifier, CatBoostClassifier, roc_auc_score, accuracy_score, cv, Pool`**
 
